@@ -41,16 +41,16 @@ export default function Footer(props) {
         <Grid item xs={sm ? 6 : 3}>
           <div className="footerGrid2">
             <p>home</p>
-            <p>Delivery Areas</p>
-            <p>Careers</p>
-            <p>Customer Support</p>
-            <p>Press</p>
+            <p>about</p>
+            <p>contact us</p>
+            <p>FAQs</p>
+            <p>sitemap</p>
           </div>
         </Grid>
         <Grid item xs={sm ? 6 : 3}>
           <div className="footerGrid3">
             <p>Privacy Policy</p>
-            <p>Terms of Use</p>
+            <p>Terms and condition</p>
             <p>Risponsible Disclosure Policy</p>
           </div>
         </Grid>

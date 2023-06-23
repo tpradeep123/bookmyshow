@@ -3,7 +3,7 @@
 }
 .posterdiv{
    
- 
+ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ font-size: 25px;
 }
 
 
-.leftarrowcircle{
+.posterleftarrowcircle{
   position: absolute;
   top: 43%;
   left: .3%;
@@ -40,10 +40,11 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
   opacity: .5;
+  cursor: pointer;
 }
 
 
-.rightarrowcircle{
+.posterrightarrowcircle{
   position: absolute;
   top:43%;
   right:.3%;
@@ -57,4 +58,5 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
   opacity: .7;
+  cursor: pointer;
 }

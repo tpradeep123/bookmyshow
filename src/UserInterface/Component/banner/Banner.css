@@ -17,12 +17,13 @@
     justify-content: center;
     align-items: center;
     opacity: .5;
+    cursor: pointer;
   }
 
   
 .rightarrowcircle{
     position: absolute;
-    top:100%;
+    top:43%;
     right:.3%;
     z-index: 1;
     color: #f5f6fa;
@@ -34,4 +35,5 @@
     justify-content: center;
     align-items: center;
     opacity: .7;
+    cursor: pointer;
 }

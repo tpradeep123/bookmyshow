@@ -60,13 +60,13 @@ export default function Movie(){
         <div className="heading">
         Recommended Movies
         </div>
-        <div className="leftarrowcircle">
+        <div className="posterleftarrowcircle">
       <ArrowBackIosNewIcon  onClick={handleBack} />
   </div>
       <Slider {...settings} ref={sliderRef} >
     {showPoster()}
  </Slider>
- <div className="rightarrowcircle">
+ <div className="posterrightarrowcircle">
  <ArrowForwardIosIcon  onClick={handleForwad}/>
 </div>
     </div>)

@@ -34,7 +34,7 @@ export default function Banner(){
       const showImages=()=>{
         return images.map((item)=>{
             return(<div>
-                <img src={item.LinkImg} width="100%"/>
+                <img src={item.LinkImg} width="100%" />
             </div>)
         })
       }

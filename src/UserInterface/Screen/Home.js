@@ -2,6 +2,7 @@ import Header from "../Component/header/Header";
 import Banner from "../Component/banner/Banner";
 import "./Home.css";
 import Movie from "../Component/MovieComponent/Movie";
+import Footer from "../Component/Footer/Footer";
 export default function Home() {
   return (
     <div className="maincontainer">
@@ -12,6 +13,7 @@ export default function Home() {
         </div>
       </div>
    <Movie/>
+   <Footer/>
     </div>
   );
 }

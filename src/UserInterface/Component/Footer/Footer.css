@@ -1,0 +1,73 @@
+.footerContainer {
+    width: 100vw;
+    height: 35vh;
+    margin-Top: 30;
+    background-color: #353b48;
+    margin-top: 3%;
+  }
+
+  .footerIcon{
+    padding-Left: 5%;
+    color:white;
+  }
+
+  .footerIconInsta{
+    color:white;
+  }
+
+  .footerGrid1 {
+    display: flex;
+    flex-Direction: column;
+    margin-Left: 14%;
+    margin-Top: 10%
+  }
+
+  .logo {
+    font-Family: Poppins;
+    font-Size: 50px;
+  }
+
+  .footerIconDiv {
+    padding-Top: 10;
+    color: #576574;
+  }
+  .footerGrid2 {
+    margin-Left:15%;
+    margin-Top: 11%;
+    color: aliceblue;
+  }
+
+  .footerText {
+    padding-Bottom: 5%;
+  }
+
+  .footerGrid3 {
+    margin-Left: 15%;
+    margin-Top: 11%;
+    color: aliceblue;
+  }
+
+  .footerGrid4 {
+    margin-Left: 15%;
+    margin-Top: 11%;
+    display: flex;
+    flex-Direction: column;
+    color: aliceblue;
+  }
+
+  .footerDownloadText{
+    padding-Bottom: 5%;
+  }
+  .androidbtn{
+    margin-Top: 1%;
+    width: 70%;
+    color: aliceblue;
+    margin-bottom: 2%;
+  }
+.applebtn{
+   margin-top: 5%;
+    size: large;
+    margin-Top: 3%;
+    width: 70%;
+    color: aliceblue
+}

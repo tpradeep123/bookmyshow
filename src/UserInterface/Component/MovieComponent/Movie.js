@@ -1,4 +1,4 @@
-import React,{ createRef }  from "react";
+import React,{ createRef, useEffect, useState }  from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,7 +7,21 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './Movie.css'
 import { Paper } from "@mui/material";
 export default function Movie(){
-    var settings = {
+/*const [popularMovie,setPopularMovie]=useState([])
+    useEffect(()=>{
+     fetch("https://api.themoviedb.org/3/movie/popular?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US")
+    .then(res=>res.json())
+    .then(data=>setPopularMovie(data.results))
+    
+    },[])
+    
+       {popularMovie.map(item=>
+     <li>{item.original_title}</li>
+        )}
+   */
+
+   
+   var settings = {
         dots: false,
         infinite: true,
         speed: 500,
@@ -34,11 +48,13 @@ export default function Movie(){
             )
         })
     }
-    return(<div className="maincontainer">
-    
- <Slider {...settings} >
+ 
+    return(<div className="maincontainerposter">
+        <div className="heading">
+        Recommended Movies
+        </div>
+      <Slider {...settings} >
     {showPoster()}
  </Slider>
-
     </div>)
 }

@@ -1,0 +1,19 @@
+.maincontainer{
+    background-color: #f5f6fa;
+    width:100vw;
+  overflow: hidden;
+}
+
+.bannercontainer{
+/*margin-left: 3%;
+margin-right: 3%;*/
+margin-top: .5%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.bannerScontainer{
+    width:100%
+}

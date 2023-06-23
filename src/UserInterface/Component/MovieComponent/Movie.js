@@ -7,6 +7,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './Movie.css'
 import { Paper } from "@mui/material";
 export default function Movie(){
+    var sliderRef = createRef();
 /*const [popularMovie,setPopularMovie]=useState([])
     useEffect(()=>{
      fetch("https://api.themoviedb.org/3/movie/popular?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US")
@@ -48,13 +49,25 @@ export default function Movie(){
             )
         })
     }
- 
+    const handleBack = () => {
+        sliderRef.current.slickPrev();
+      };
+    
+      const handleForwad= () => {
+        sliderRef.current.slickNext();
+      };
     return(<div className="maincontainerposter">
         <div className="heading">
         Recommended Movies
         </div>
-      <Slider {...settings} >
+        <div className="leftarrowcircle">
+      <ArrowBackIosNewIcon  onClick={handleBack} />
+  </div>
+      <Slider {...settings} ref={sliderRef} >
     {showPoster()}
  </Slider>
+ <div className="rightarrowcircle">
+ <ArrowForwardIosIcon  onClick={handleForwad}/>
+</div>
     </div>)
 }

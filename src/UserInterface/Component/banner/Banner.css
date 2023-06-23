@@ -22,7 +22,7 @@
   
 .rightarrowcircle{
     position: absolute;
-    top:43%;
+    top:100%;
     right:.3%;
     z-index: 1;
     color: #f5f6fa;

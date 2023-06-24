@@ -1,4 +1,14 @@
 .SMcontainer{
-    width: 100vw;
-    height: 50%;
+    width: 100%;
+    display:flex;
+    flex-Direction:row;
+ background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNM9dULY8BstYbzkitGA4wrFwcnj8Z1lS1rYYoQ7TLz101XKCUj9HVicSo0wXj0rLffy5tTobOX60_HKuL0ZLNmfcSzZvJX0EK892BGM5Jtk__xEhBrMQ-stlPXtJzLjef7tlSD1MBO7CDHttaQdYVsIyt0p1B96_HCLoqb6vbY6cODf9X4-JBSGEXXg/s0/20230503_020257-01.jpeg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.img{
+    margin-Left:5%;
+    margin-Top:2%;
+    margin-Bottom:2%;
+    border-Radius:3%
 }

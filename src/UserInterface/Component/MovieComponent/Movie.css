@@ -1,22 +1,17 @@
 .maincontainerposter{
   position: relative;
+ 
 }
 .posterdiv{
-   
- cursor: pointer;
+   cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;;
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 15%;   
+ 
 }
-.maincontainer{
-    background-color: #f5f6fa;
-    width: 98.5vw;
-  overflow: hidden;
 
-}
 .heading{
 margin-left: 5%;
 margin-top: 2%;

@@ -17,3 +17,8 @@ flex-direction: column;
 .bannerScontainer{
     width:100%
 }
+.moviecontainer{
+  background-color: #f5f6fa;
+  width:100vw;
+overflow: hidden;
+}
